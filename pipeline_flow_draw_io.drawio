@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-15T17:49:04.897Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="U3iKzAqwdygR4Z_6fHQk" version="12.9.12" type="github" pages="2">
+<mxfile modified="2020-04-15T17:52:24.599Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="C_z2TUlV2GCh9gs1_B2y" version="12.9.12" type="github" pages="2">
   <diagram id="N0pXoSgsfRaU5Hu7Thsm" name="Page-1">
     <mxGraphModel dx="2142" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -195,7 +195,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-14" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
-          <mxGeometry x="3520" y="1320" width="70" height="70" as="geometry" />
+          <mxGeometry x="3520" y="1310" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.821;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-16" target="GFlZ5m6I7uKBJ6M-TDIo-0">
           <mxGeometry relative="1" as="geometry">
@@ -253,9 +253,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3380" y="1360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3460" y="1460" />
-              <mxPoint x="3460" y="1360" />
-              <mxPoint x="3380" y="1360" />
+              <mxPoint x="3500" y="1460" />
+              <mxPoint x="3500" y="1360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -275,7 +274,7 @@
           <mxGeometry x="3785" y="1100" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-42" value="DYNAMODB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
-          <mxGeometry x="3502.5" y="1299" width="105" height="20" as="geometry" />
+          <mxGeometry x="3502.5" y="1290" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-43" value="SSM RUN COMMAND" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3797.5" y="1299" width="125" height="20" as="geometry" />
@@ -344,8 +343,19 @@
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-68" value="CLOUDWATCH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3282.5" y="1150" width="127.5" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-72" target="GFlZ5m6I7uKBJ6M-TDIo-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3420" y="1325" />
+              <mxPoint x="3420" y="1325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-72" value="GTTVPSLOCATIONUPDATE" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3316.25" y="1310" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-74" value="Trigger after sql write" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3360" y="1339" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
