@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-15T17:59:57.789Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="mMH0HDmh-b5J7tr1ETsI" version="12.9.12" type="github" pages="2">
+<mxfile modified="2020-04-15T18:04:04.701Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="FgwALT5dD_inJlCstjuW" version="12.9.12" type="github" pages="2">
   <diagram id="N0pXoSgsfRaU5Hu7Thsm" name="Page-1">
     <mxGraphModel dx="2142" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -197,14 +197,6 @@
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-14" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3520" y="1310" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.821;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-16" target="GFlZ5m6I7uKBJ6M-TDIo-0">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3790" y="1280" />
-              <mxPoint x="4001" y="1280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3970" y="1410" as="targetPoint" />
@@ -276,8 +268,8 @@
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-42" value="DYNAMODB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3502.5" y="1290" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-43" value="SSM RUN COMMAND" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
-          <mxGeometry x="3797.5" y="1299" width="125" height="20" as="geometry" />
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-43" value="SSM run remote script" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3657.5" y="1250" width="125" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-44" value="GIT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3981" y="1370" width="105" height="20" as="geometry" />
@@ -315,33 +307,25 @@
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-63" value="Send failed lambda notification&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3690" y="1470" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-64">
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-64">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3660" y="1280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="3660" y="1280" />
-            </Array>
+            <mxPoint x="4155" y="1300.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-64" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.instance_with_cloudwatch;fillColor=#F58534;gradientColor=none;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
-          <mxGeometry x="3310" y="1170" width="70" height="70" as="geometry" />
+          <mxGeometry x="4120" y="1440" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-65">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3770" y="1320" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="3770" y="1279" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.738;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-65" target="GFlZ5m6I7uKBJ6M-TDIo-82">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-65" value="GTTVPSDEPLOY" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
-          <mxGeometry x="3667.5" y="1258" width="41" height="41" as="geometry" />
+          <mxGeometry x="4134.5" y="1240" width="41" height="41" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-67" value="Trigger every 30 minutes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
-          <mxGeometry x="3400" y="1258" width="170" height="20" as="geometry" />
+          <mxGeometry x="4140" y="1380" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-68" value="CLOUDWATCH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
-          <mxGeometry x="3282.5" y="1150" width="127.5" height="20" as="geometry" />
+          <mxGeometry x="4106.25" y="1510" width="127.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-72">
           <mxGeometry relative="1" as="geometry">
@@ -360,6 +344,20 @@
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-80" value="Docker status to restart" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3360" y="1310" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=1.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-82" target="GFlZ5m6I7uKBJ6M-TDIo-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3800" y="1270" />
+              <mxPoint x="3646" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-82" value="SSM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3742.5" y="1300" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-83" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3200" y="920" width="60" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
