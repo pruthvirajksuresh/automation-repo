@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-15T17:52:24.599Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="C_z2TUlV2GCh9gs1_B2y" version="12.9.12" type="github" pages="2">
+<mxfile modified="2020-04-15T17:59:57.789Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="mMH0HDmh-b5J7tr1ETsI" version="12.9.12" type="github" pages="2">
   <diagram id="N0pXoSgsfRaU5Hu7Thsm" name="Page-1">
     <mxGraphModel dx="2142" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -343,11 +343,12 @@
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-68" value="CLOUDWATCH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3282.5" y="1150" width="127.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-72" target="GFlZ5m6I7uKBJ6M-TDIo-14">
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-72">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3510" y="1330.0000000000002" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3420" y="1325" />
-              <mxPoint x="3420" y="1325" />
+              <mxPoint x="3410" y="1330" />
+              <mxPoint x="3410" y="1330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -356,6 +357,9 @@
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-74" value="Trigger after sql write" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3360" y="1339" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-80" value="Docker status to restart" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3360" y="1310" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
