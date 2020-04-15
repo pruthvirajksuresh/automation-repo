@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-15T19:23:56.362Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="HsOPwYnt6bOMazgHIxl_" version="12.9.12" type="github" pages="2">
+<mxfile modified="2020-04-15T19:53:57.084Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="N1jZ5pJIinTF7gjpww4z" version="12.9.12" type="github" pages="2">
   <diagram id="N0pXoSgsfRaU5Hu7Thsm" name="Page-1">
     <mxGraphModel dx="2142" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -415,8 +415,8 @@
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-104" target="GFlZ5m6I7uKBJ6M-TDIo-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3420" y="900" />
-              <mxPoint x="3420" y="900" />
+              <mxPoint x="3500" y="910" />
+              <mxPoint x="3500" y="910" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -453,6 +453,18 @@
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-124" value="Mount EFS on EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3926.75" y="1018.25" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-132" value="Create requested number of vps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3350" y="930" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-133" value="Get list of all vps in agency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3345" y="1030" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-134" value="Update VPS docker state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3340" y="1133" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-135" value="Mark VPS docker to be deleted" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3345" y="1230.5" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
