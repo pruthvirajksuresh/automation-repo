@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-15T17:41:27.150Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="DVlnskVTxHmYbEIfkoQj" version="12.9.12" type="github" pages="2">
+<mxfile modified="2020-04-15T17:42:28.779Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="NT_IK5aei8-9pSV_1Kt-" version="12.9.12" type="github" pages="2">
   <diagram id="N0pXoSgsfRaU5Hu7Thsm" name="Page-1">
     <mxGraphModel dx="2142" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -308,15 +308,22 @@
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-64">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3660" y="1270" as="targetPoint" />
+            <mxPoint x="3660" y="1280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3640" y="1270" />
-              <mxPoint x="3640" y="1270" />
+              <mxPoint x="3660" y="1280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-64" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.instance_with_cloudwatch;fillColor=#F58534;gradientColor=none;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3320" y="1260" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3770" y="1320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3770" y="1279" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-65" value="GTTVPSDEPLOY" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3667.5" y="1258" width="41" height="41" as="geometry" />
