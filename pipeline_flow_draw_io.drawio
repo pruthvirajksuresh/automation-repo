@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-15T18:04:04.701Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="FgwALT5dD_inJlCstjuW" version="12.9.12" type="github" pages="2">
+<mxfile modified="2020-04-15T18:05:19.258Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="FvLhobF05mRIQgTkbKRZ" version="12.9.12" type="github" pages="2">
   <diagram id="N0pXoSgsfRaU5Hu7Thsm" name="Page-1">
     <mxGraphModel dx="2142" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -269,7 +269,7 @@
           <mxGeometry x="3502.5" y="1290" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-43" value="SSM run remote script" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
-          <mxGeometry x="3657.5" y="1250" width="125" height="20" as="geometry" />
+          <mxGeometry x="3670" y="1250.5" width="125" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-44" value="GIT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3981" y="1370" width="105" height="20" as="geometry" />
@@ -345,13 +345,8 @@
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-80" value="Docker status to restart" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3360" y="1310" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=1.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-82" target="GFlZ5m6I7uKBJ6M-TDIo-0">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3800" y="1270" />
-              <mxPoint x="3646" y="1270" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.048;entryY=1.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-82" target="GFlZ5m6I7uKBJ6M-TDIo-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-82" value="SSM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3742.5" y="1300" width="105" height="20" as="geometry" />
