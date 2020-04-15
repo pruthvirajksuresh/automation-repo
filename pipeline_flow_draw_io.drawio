@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-15T17:26:55.459Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="0v11fScGLUUeiLwJ1KW6" version="12.9.12" type="github" pages="2">
+<mxfile modified="2020-04-15T17:34:29.917Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="amSnETLgqqV2oThMje7o" version="12.9.12" type="github" pages="2">
   <diagram id="N0pXoSgsfRaU5Hu7Thsm" name="Page-1">
     <mxGraphModel dx="2142" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -195,7 +195,12 @@
           <mxGeometry x="3520" y="1320" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.821;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-16" target="GFlZ5m6I7uKBJ6M-TDIo-0">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3790" y="1280" />
+              <mxPoint x="4001" y="1280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-16">
           <mxGeometry relative="1" as="geometry">
@@ -236,7 +241,7 @@
             <mxPoint x="3440" y="1470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-37" value="vpscmswrite" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-37" value="GTTIMPORTUTILITY" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3525" y="1440" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="itOuN0mKVWH0vXaiAye3-1" source="GFlZ5m6I7uKBJ6M-TDIo-14" target="GFlZ5m6I7uKBJ6M-TDIo-37">
@@ -245,11 +250,47 @@
             <mxPoint x="3555" y="1390" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-40" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
-          <mxGeometry x="3710" y="1280" width="40" height="20" as="geometry" />
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-40" value="Send docker anomaly status&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3720" y="1410" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-41" value="EC2 CLUSTERS&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
           <mxGeometry x="3785" y="1100" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-42" value="DYNAMODB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3502.5" y="1299" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-43" value="SSM RUN COMMAND" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3797.5" y="1299" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-44" value="GIT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3981" y="1370" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-45" value="AWS EFS BACKUP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="4110" y="1190" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-46" value="EFS FILESYSTEM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3950" y="940" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-47" value="CODE BUILD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3667.5" y="940" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-49" value="CMS SQL DATABASE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3342.5" y="1420" width="127.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-54" value="SNS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3941.75" y="1510" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-55" value="Send failed run command&amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3820" y="1350" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-56" value="Git pull code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3920" y="1319" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-57" value="Scale EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="3640" y="1060" width="82.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GFlZ5m6I7uKBJ6M-TDIo-58" value="Daily Backup EFS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itOuN0mKVWH0vXaiAye3-1">
+          <mxGeometry x="4020" y="980" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
